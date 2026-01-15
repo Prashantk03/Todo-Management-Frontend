@@ -22,6 +22,11 @@ Tailwind CSS.
 
 Company-provided REST API (JWT-based authentication)
 
+-> For testing:
+
+{Admin login credentials : email: user@test.com // password: User12345} //
+{Note - User can signup then login}
+
 -> Features:
 
 *Authentication-
