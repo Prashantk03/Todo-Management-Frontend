@@ -1,6 +1,6 @@
 Project Title:
 
-Todo Management App (Company Assignment)
+**Todo Management App (Company Assignment)**
 
 Overview:
 
@@ -11,12 +11,12 @@ The application supports authentication, authorization, admin management, profil
 
 *Frontend-
 
-React (Vite) //
+**React (Vite) //
 TypeScript //
 Redux Toolkit //
 React Router v6 //
 Axios //
-Tailwind CSS.
+Tailwind CSS.**
 
 *Backend-
 
@@ -24,41 +24,41 @@ Company-provided REST API (JWT-based authentication)
 
 -> For testing:
 
-{Admin login credentials : email: user@test.com // password: User12345} //
-{Note - User can signup then login}
+**{Admin login credentials : email: user@test.com // password: User12345} //
+{Note - User can signup then login}**
 
 -> Features:
 
 *Authentication-
 
-Login / Signup //
+**Login / Signup //
 JWT-based auth //
 Persistent login across refresh //
-Automatic logout on token expiry (401 handling).
+Automatic logout on token expiry (401 handling).**
 
 *User-
 
-View & manage todos //
+**View & manage todos //
 Update profile name //
 Change password //
 Upload avatar //
-Responsive UI.
+Responsive UI.**
 
 *Admin-
 
-View all users //
+**View all users //
 Toggle user roles //
 Delete users //
 Reset user passwords //
-Dedicated admin dashboard.
+Dedicated admin dashboard.**
 
 *Todos-
 
-(CRUD) => {Create / Read / Update / Delete todos} //
+**(CRUD) => {Create / Read / Update / Delete todos} //
 Status management (pending, in_progress, completed) //
 Pagination //
 Detail view per todo //
-Confirmation before destructive actions.
+Confirmation before destructive actions.**
 
 ?------READY TO USE below is the Installation------?
 
@@ -75,22 +75,22 @@ Confirmation before destructive actions.
 
 -> Frontend & State
 
--react //
+**-react //
 -react-dom //
 -react-router-dom //
 -@reduxjs/toolkit //
--react-redux.
+-react-redux.**
  
 -> Forms & Validation
 
--react-hook-form //
+**-react-hook-form //
 -zod //
--@hookform/resolvers.
+-@hookform/resolvers.**
 
 -> API & Data Fetching
 
--axios //
--@tanstack/react-query.
+**-axios //
+-@tanstack/react-query.**
 
 ->Styling & UI
 
