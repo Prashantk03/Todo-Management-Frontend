@@ -11,12 +11,12 @@ The application supports authentication, authorization, admin management, profil
 
 *Frontend-
 
-React (Vite)
-TypeScript
-Redux Toolkit
-React Router v6
-Axios
-Tailwind CSS
+React (Vite) //
+TypeScript //
+Redux Toolkit //
+React Router v6 //
+Axios //
+Tailwind CSS.
 
 *Backend-
 
@@ -26,69 +26,69 @@ Company-provided REST API (JWT-based authentication)
 
 *Authentication-
 
-Login / Signup
-JWT-based auth
-Persistent login across refresh
-Automatic logout on token expiry (401 handling)
+Login / Signup //
+JWT-based auth //
+Persistent login across refresh //
+Automatic logout on token expiry (401 handling).
 
 *User-
 
-View & manage todos
-Update profile name
-Change password
-Upload avatar
-Responsive UI
+View & manage todos //
+Update profile name //
+Change password //
+Upload avatar //
+Responsive UI.
 
 *Admin-
 
-View all users
-Toggle user roles
-Delete users
-Reset user passwords
-Dedicated admin dashboard
+View all users //
+Toggle user roles //
+Delete users //
+Reset user passwords //
+Dedicated admin dashboard.
 
 *Todos-
 
-(CRUD) => {Create / Read / Update / Delete todos}
-Status management (pending, in_progress, completed)
-Pagination
-Detail view per todo
-Confirmation before destructive actions
+(CRUD) => {Create / Read / Update / Delete todos} //
+Status management (pending, in_progress, completed) //
+Pagination //
+Detail view per todo //
+Confirmation before destructive actions.
 
 ?------READY TO USE below is the Installation------?
 
 #PreRequisites
-! Node.js >= 18
-! npm >= 9
+! Node.js >= 18 //
+! npm >= 9.
 
 #Install Dependencies
-! git clone <repository-url>
-! cd todo-frontend
-! npm install
+! git clone <repository-url> //
+! cd todo-frontend //
+! npm install //
 
 /------Dependencies used------/
 
 -> Frontend & State
 
--react
--react-dom
--react-router-dom
--@reduxjs/toolkit
--react-redux
-
+-react //
+-react-dom //
+-react-router-dom //
+-@reduxjs/toolkit //
+-react-redux.
+ 
 -> Forms & Validation
 
--react-hook-form
--zod
--@hookform/resolvers
+-react-hook-form //
+-zod //
+-@hookform/resolvers.
 
 -> API & Data Fetching
 
--axios
--@tanstack/react-query
+-axios //
+-@tanstack/react-query.
 
 ->Styling & UI
 
--tailwindcss
--@tailwindcss/vite
--react-hot-toast
+-tailwindcss //
+-@tailwindcss/vite //
+-react-hot-toast.
