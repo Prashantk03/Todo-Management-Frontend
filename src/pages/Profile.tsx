@@ -77,9 +77,10 @@ export default function Profile() {
   /******Upload Avatar******/
   const avatarMutation = useMutation({
     mutationFn: uploadAvatar,
-    onSuccess: (user: ApiUser) => {
+    onSuccess: (apiUser) => {
       toast.success("Avatar Uploaded")
-      dispatch(updateAvatar(mapApiUserToAuthUser(user)));
+      const authUser = mapApiUserToAuthUser(apiUser)
+      dispatch(updateAvatar(authUser));
     },
 
     onError: () => {

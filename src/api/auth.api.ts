@@ -1,5 +1,5 @@
 import { authApi } from "./axiosAuth";
-import type { AuthUser } from "../features/auth/authTypes";
+import type { ApiUser } from "../types/user";
 
 /*********REGISTER*********/
 export const registerUser = async (data: {
@@ -22,7 +22,7 @@ export const loginUser = async (data: {
   return {
     accessToken: res.data.data.accessToken,
     refreshToken: res.data.data.refreshToken,
-    user: res.data.data.user as AuthUser,
+    user: res.data.data.user as ApiUser,
   };
 };
 

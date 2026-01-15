@@ -4,6 +4,7 @@ import { useState } from "react";
 import { loginUser } from "../api/auth.api";
 import { useAppDispatch } from "../app/hooks";
 import { loginSuccess } from "../features/auth/authSlice";
+import { mapApiUserToAuthUser } from "../utils/mapUser";
 
 interface LoginForm {
   email: string;
@@ -24,17 +25,19 @@ export default function Login() {
       setError("");
 
       const res = await loginUser(data);
+
+      const authUser = mapApiUserToAuthUser(res.user)
       
       dispatch(
         loginSuccess({
-          user: res.user,
+          user: authUser,
           accessToken: res.accessToken,
           refreshToken: res.refreshToken,
         })
       );
 
       /******Role-based redirect******/
-      if (res.user.role === "ADMIN") {
+      if (authUser.role === "ADMIN") {
         navigate("/admin");
       } else {
         navigate("/todos");
