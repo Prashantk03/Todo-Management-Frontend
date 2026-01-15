@@ -5,7 +5,8 @@ Project Title:
 Overview:
 
 This is a role-based Todo Management web application built using React + TypeScript, following modern frontend architecture and best practices.
-The application supports authentication, authorization, admin management, profile handling, and responsive UI, and integrates with a company-provided backend API.
+The application supports authentication, authorization, admin management, profile handling, and responsive UI, and integrates with a company-provided backend API. **??**
+For Communication between Frontend and Backend I have used **PROXY** connection in vite.config.ts.
 
 -> Tech Stack:
 
